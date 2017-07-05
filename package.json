@@ -1,0 +1,32 @@
+{
+  "name": "project-2",
+  "version": "1.0.0",
+  "description": "Hiking Meet Up",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarkatechia/Project-2.git"
+  },
+  "keywords": [
+    "hiking",
+    "meetup",
+    "meet",
+    "up",
+    "project",
+    "2"
+  ],
+  "author": "Kristen De La Cerda, Amar Katechia, Matt Valladarez, Ronnie Hedrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amarkatechia/Project-2/issues"
+  },
+  "homepage": "https://github.com/amarkatechia/Project-2#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "method-override": "^2.3.9",
+    "path": "^0.12.7"
+  }
+}
