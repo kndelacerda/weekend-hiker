@@ -4,6 +4,7 @@
   "description": "Hiking Meet Up",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,8 +26,17 @@
   },
   "homepage": "https://github.com/amarkatechia/Project-2#readme",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "debug": "^2.6.8",
     "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "http": "0.0.0",
     "method-override": "^2.3.9",
-    "path": "^0.12.7"
+    "morgan": "^1.8.2",
+    "mysql": "^2.13.0",
+    "node": "0.0.0",
+    "path": "^0.12.7",
+    "sequelize": "^4.2.1",
+    "serve-favicon": "^2.4.3"
   }
 }

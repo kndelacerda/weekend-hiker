@@ -1,0 +1,96 @@
+<!-- //AIzaSyDSxT5yDffCD_334aqmp3M8bpQJe11ZSLw -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Fusion Tables queries</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="js/maps.css" />
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+        
+        #map {
+            height: 80%;
+            width: 71%
+        }
+        /* Optional: Makes the sample page fill the window. */
+        
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            padding: 0;
+        }
+        
+        body {
+            background: #2e3842;
+        }
+        
+        .bg-faded {
+            background: #2e3842
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--// Navigation-->
+    <!-- Header -->
+    <!--<nav id="nav">
+        <ul>
+            <li class="special">
+                <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                <div id="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="forums.html">Forums</a></li>
+                        <li><a href="elements.html">Gallery</a></li>
+                        <li><a href="elements.html">Parks & Trails</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                        <li><a href="#">Log In</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>-->
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+   Menu
+    <span class="caret"></span>
+  </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="forums.html">Forums</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="https://slack-redir.net/link?url=https%3A%2F%2Fsafe-springs-22043.herokuapp.com%2F&v=3">Trail Chat</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="map" style="position:absolute"></div>
+    <iframe width="325" height="500" scrolling="yes" frameborder="no" src="https://fusiontables.google.com/embedviz?viz=CARD&amp;q=select+*+from+1RAMLCC62meRVQ-rDLA46-n8RUOFVmVofxrfg0qAP&amp;tmplt=3&amp;cpr=1"></iframe>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSxT5yDffCD_334aqmp3M8bpQJe11ZSLw&callback=initMap">
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+    <script src="js/mapstyle.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
